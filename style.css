@@ -1,22 +1,20 @@
-body{
+body {
     padding-top:60px;
 }
+
 header {
     height: 480px;
     background-size: auto 100%;
     background: url(img/isthere.png) center center;
   }
+
 nav {
     box-shadow: 0px  2px 4px -2px black;
 }
+
 section {
     margin-top:10px;
     margin-bottom:20px
-}
-
-#wrapper{
-    padding-top:20px;
-    padding-bottom:60px;
 }
 
 button.card {
@@ -31,4 +29,9 @@ button.card:hover {
     color:black;
     text-align: left;
     background-color: aliceblue;
+}
+
+#wrapper {
+    padding-top:20px;
+    padding-bottom:60px;
 }
