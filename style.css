@@ -1,0 +1,18 @@
+body{
+    padding-top:60px;
+}
+header {
+    height: 480px;
+    background-size: auto 100%;
+    background: url(img/isthere.png) center center;
+  }
+
+section {
+    margin-top:10px;
+    margin-bottom:20px
+}
+
+#wrapper{
+    padding-top:20px;
+    padding-bottom:60px;
+}
