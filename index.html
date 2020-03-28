@@ -19,12 +19,12 @@
   </header>
   <nav class="navbar navbar-expand navbar-light bg-light fixed-top">
     <a class="navbar-brand scroll" href="#">Hama</a>
-      <div class="navbar-nav">
-        <a class="nav-item nav-link scroll" href="#Profile">Profile</a>
-        <a class="nav-item nav-link scroll" href="#Skill">Skill</a>
-        <a class="nav-item nav-link scroll" href="#Works">Works</a>
-        <a class="nav-item nav-link scroll" href="#Contact">Contacts</a>
-      </div>
+    <div class="navbar-nav">
+      <a class="nav-item nav-link scroll" href="#Profile">Profile</a>
+      <a class="nav-item nav-link scroll" href="#Skill">Skill</a>
+      <a class="nav-item nav-link scroll" href="#Works">Works</a>
+      <a class="nav-item nav-link scroll" href="#Contact">Contacts</a>
+    </div>
   </nav>
   <div class="container bg-light" id="wrapper">
     <main class="container">
@@ -45,24 +45,59 @@
       </section>
       <section class="container" id="Works">
         <h2>Works</h2>
+
         <div class="row">
-          <div class="col-md-4 col-sm-5 col-lg-3 mb-1 mt-1">
-            <div class="card">
+          <div class="col-md-6 col-sm-12 col-lg-4 col-xl-3 mb-1 mt-1">
+            <button type="button" class="btn btn-primary card" data-toggle="collapse" data-target="#collapsework1"
+              aria-expanded="false" aria-controls="collapsework1">
               <img src="img/isthere.png" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Work1</h3>
                   <p class="card-text">This is work 1.</p>
               </div>
-            </div>
+            </button>
           </div>
-          <div class="col-md-4 col-sm-5 col-lg-3 mb-1 mt-1">
-            <div class="card">
+          <div class="col-md-6 col-sm-12 col-lg-4 col-xl-3 mb-1 mt-1 order-2 order-md-1">
+            <button type="button" class="btn btn-primary card" data-toggle="collapse" data-target="#collapsework2"
+              aria-expanded="false" aria-controls="collapsework2">
               <img src="img/isthere.png" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Work1</h3>
                   <p class="card-text">This is work 1.</p>
               </div>
-            </div>
+            </button>
+          </div>
+          <div class="col-md-6 col-sm-12 col-lg-4 col-xl-3 mb-1 mt-1 order-4 order-md-2 order-lg-1">
+            <button type="button" class="btn btn-primary card" data-toggle="collapse" data-target="#collapsework3"
+              aria-expanded="false" aria-controls="collapsework3">
+              <img src="img/isthere.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Work1</h3>
+                  <p class="card-text">This is work 1.</p>
+              </div>
+            </button>
+          </div>
+          <div class="col-md-6 col-sm-12 col-lg-4 col-xl-3 mb-1 mt-1 order-6 order-md-2 order-lg-2 order-lg-2 order-xl-1">
+            <button type="button" class="btn btn-primary card" data-toggle="collapse" data-target="#collapsework4"
+              aria-expanded="false" aria-controls="collapsework4">
+              <img src="img/isthere.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Work1</h3>
+                  <p class="card-text">This is work 1.</p>
+              </div>
+            </button>
+          </div>
+          <div class="col-12 order-1 order-md-1 order-lg-1 collapse" id="collapsework1">
+            <p>work1説明</p>
+          </div>
+          <div class="col-12 order-3 order-md-1 order-lg-1 collapse" id="collapsework2">
+            <p>work2説明</p>
+          </div>
+          <div class="col-12 order-5 order-md-2 order-lg-1 collapse" id="collapsework3">
+            <p>work3説明</p>
+          </div>
+          <div class="col-12 collapse order-7" id="collapsework4">
+            <p>work4説明</p>
           </div>
         </div>
         <!-- Collapseで押すと詳細が表示されるようにする -->

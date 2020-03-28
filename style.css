@@ -6,7 +6,9 @@ header {
     background-size: auto 100%;
     background: url(img/isthere.png) center center;
   }
-
+nav {
+    box-shadow: 0px  2px 4px -2px black;
+}
 section {
     margin-top:10px;
     margin-bottom:20px
@@ -15,4 +17,17 @@ section {
 #wrapper{
     padding-top:20px;
     padding-bottom:60px;
+}
+
+button.card {
+    padding:0;
+    color:black;
+    text-align: left;
+    background-color: aliceblue;
+}
+button.card:hover {
+    padding:0;
+    color:black;
+    text-align: left;
+    background-color: aliceblue;
 }
