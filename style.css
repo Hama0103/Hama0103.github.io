@@ -31,12 +31,14 @@ button.card:hover {
     background-color: aliceblue;
 }
 
+button.card:focus {
+    padding:0;
+    color:black;
+    text-align: left;
+    background-color: aliceblue;
+}
+
 #wrapper {
     padding-top:20px;
     padding-bottom:60px;
-}
-
-#accordion {
-    background-color: aliceblue;
-    color: aliceblue;
 }
