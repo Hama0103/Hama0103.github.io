@@ -35,3 +35,8 @@ button.card:hover {
     padding-top:20px;
     padding-bottom:60px;
 }
+
+#accordion {
+    background-color: aliceblue;
+    color: aliceblue;
+}
