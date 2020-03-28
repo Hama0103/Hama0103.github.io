@@ -46,7 +46,7 @@
       <section class="container" id="Works">
         <h2>Works</h2>
 
-        <div class="row">
+        <div class="row" id="accordion">
           <div class="col-md-6 col-sm-12 col-lg-4 col-xl-3 mb-1 mt-1">
             <button type="button" class="btn btn-primary card" data-toggle="collapse" data-target="#collapsework1"
               aria-expanded="false" aria-controls="collapsework1">
@@ -87,16 +87,16 @@
               </div>
             </button>
           </div>
-          <div class="col-12 order-1 order-md-1 order-lg-1 collapse" id="collapsework1">
+          <div class="col-12 order-1 order-md-1 order-lg-1 collapse" id="collapsework1" data-parent="#accordion">
             <p>work1説明</p>
           </div>
-          <div class="col-12 order-3 order-md-1 order-lg-1 collapse" id="collapsework2">
+          <div class="col-12 order-3 order-md-1 order-lg-1 collapse" id="collapsework2" data-parent="#accordion">
             <p>work2説明</p>
           </div>
-          <div class="col-12 order-5 order-md-2 order-lg-1 collapse" id="collapsework3">
+          <div class="col-12 order-5 order-md-2 order-lg-1 collapse" id="collapsework3" data-parent="#accordion">
             <p>work3説明</p>
           </div>
-          <div class="col-12 collapse order-7" id="collapsework4">
+          <div class="col-12 collapse order-7" id="collapsework4" data-parent="#accordion">
             <p>work4説明</p>
           </div>
         </div>
