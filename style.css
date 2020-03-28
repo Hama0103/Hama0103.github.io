@@ -25,6 +25,7 @@ button.card {
     text-align: left;
     background-color: aliceblue;
 }
+
 button.card:hover {
     padding:0;
     color:black;
