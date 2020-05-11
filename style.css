@@ -17,6 +17,12 @@ section {
     margin-bottom:20px
 }
 
+h2 {
+    padding-left: 10px;
+    border-bottom-style: solid;
+    border-color: #202020;
+}
+
 button.card {
     padding:0;
     color:black;
@@ -41,4 +47,20 @@ button.card:focus {
 #wrapper {
     padding-top:20px;
     padding-bottom:60px;
+}
+
+.icon {
+    border-radius: 50%;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin-top: 10px;
 }
